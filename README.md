@@ -5,9 +5,11 @@ Give it the pojo name and the fields names, get the code
 
 # Usage :
 Command :
+
 java csvpojomaker Line columnFoo columnBar snakecat
 
 Output :
+
 public class Line {
 
     private String columnfoo = null ;
