@@ -1,0 +1,5 @@
+task upper << {
+    String mixedcase = 'miXED_casE'
+    println "Original: " + mixedcase
+    println "Upper Case: " + mixedcase.toUpperCase()
+}
