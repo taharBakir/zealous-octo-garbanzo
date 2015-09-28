@@ -1,0 +1,13 @@
+defaultTasks 'other', 'clean', 'run'
+
+task clean << {
+println "clean"
+}
+
+task run << {
+println "run"
+}
+
+task other << {
+println "bordel"
+}

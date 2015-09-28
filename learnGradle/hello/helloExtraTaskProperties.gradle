@@ -1,0 +1,8 @@
+task myTask {
+ ext.myProperty = "par ici la monnaie"
+}
+
+task printLaMonnaie << {
+  println myTask.myProperty
+}
+

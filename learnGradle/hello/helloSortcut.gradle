@@ -1,0 +1,12 @@
+task hello << {
+    println 'hello earth'
+}
+hello.doFirst {
+println 'hello venus'
+}
+hello.doLast {
+println 'hello mars : nom task = $hello.name'
+}
+hello << {
+println "hello jupiter: $hello.name visiblement le double quote interprete contrairement au single quote"
+}
